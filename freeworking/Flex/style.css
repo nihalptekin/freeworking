@@ -1,0 +1,133 @@
+.flex-container{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    background-color: deepskyblue;
+    margin-bottom: 10px;
+}
+
+#order{
+order: -1;
+}
+
+.flex-container > div {
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+   
+}
+
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    background-color: rgb(255, 0, 212);
+}
+
+.flex-direction > div{
+    background-color: white;
+    width: 100px;
+    
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+
+}
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: coral;
+}
+
+.column-reverse > div {
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(22, 214, 70);
+}
+.row > div {
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: aquamarine;
+
+}
+
+.row-reverse > div {
+    background-color: white;
+    width: 100px;
+    
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+}
+
+.flex-wrap{
+    background-color: gold;
+    display: flex ;
+    flex-wrap: wrap;
+}
+
+.flex-wrap> div{
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+    margin-bottom: 10px;
+
+}
+
+.wrap-reverse{
+    display: flex ;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(12, 200, 150);
+}
+
+
+.wrap-reverse > div{
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+
+}
+
+.flex-flow{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: darksalmon;
+}
+
+.flex-flow > div{
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+
+}
